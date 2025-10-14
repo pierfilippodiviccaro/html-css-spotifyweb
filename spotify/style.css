@@ -13,12 +13,12 @@
 }
 .main{
     width: 70%;
-    height: 100vh;
+    height: 85vh;
     background-color: #3c3b3b;
 }
 .side-bar{
     width: 30%;
-    height: 100vh;
+    height: 85vh;
     background-color: black;
 }
 .container{
@@ -48,19 +48,19 @@
     display: flex;
 }
 .menu{
-    padding-left: 35px;
+    padding-left: 25px;
     
     
 }
-.menu ul{
+.nav{
+    display: flex;
+    flex-direction: column;
     list-style: none;
- display: flex;
- flex-direction: column;
- gap: 20px;
- justify-content: center;
- padding-top: 25px;
- font-size: 19px;
+    font-size: 20px;
+    margin-top: 10px;
+    gap: 10px;
 }
+
 .logo{
     padding: 20px;
 }
@@ -68,3 +68,17 @@
     padding-top: 15px;
     font-size: 25px;
 }
+.add{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 19px;
+    padding-right: 30px;
+}
+.playlist-creation{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 19px;
+   gap: 5px;
+}
+
