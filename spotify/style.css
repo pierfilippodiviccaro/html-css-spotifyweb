@@ -13,12 +13,11 @@
 }
 .main{
     width: 70%;
-    height: 85vh;
     background-color: #3c3b3b;
 }
 .side-bar{
     width: 30%;
-    height: 85vh;
+    height: 100vh;
     background-color: black;
 }
 .container{
@@ -73,12 +72,32 @@
     font-weight: bold;
     font-size: 19px;
     padding-right: 30px;
+    
 }
 .playlist-creation{
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-right: 19px;
-   gap: 5px;
+   margin-right: 50px;
+   gap: 10px;
+   list-style: none;
+   margin-top: 7px;
 }
+.footer{
+    width: 100%;
+    background-color: aqua;
+    height: 10vh;
+}
+.col-20{
+    width: 17%;
+    border: 1px solid black;
+    height: 17vh;
 
+}
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+}
