@@ -18,7 +18,9 @@
 }
 .logo1{
     display: block;
-    padding: 20px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .side-bar{
     display: block;
