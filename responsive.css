@@ -4,6 +4,9 @@
     .col-20{
         width: 15%;
     }
+    .playlist{
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:700px) {
@@ -30,6 +33,9 @@
     width: 70%;
 }
 .logo-2{
+    display: none;
+}
+.menu-2{
     display: none;
 }
 }
