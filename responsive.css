@@ -1,3 +1,5 @@
+
+
 @media  screen and (min-width:1100px) {
     
 }
@@ -6,6 +8,25 @@
     
 }
 @media screen and (min-width:600px){
-    
+.logo2{
+    display: none;
 }
+.logo1{
+    display: block;
+}
+.side-bar{
+    display: block;
+}
+.menu{
+    display: block;
+}
+.side-bar{
+    width: 30%;
+}
+.main{
+    width: 70%;
+}
+}
+
+
 
