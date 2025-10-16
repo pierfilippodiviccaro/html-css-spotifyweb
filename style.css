@@ -201,25 +201,57 @@ body{
    justify-content: flex-start;
 }
 .song{
-    width: 20%;
-    background-color: aqua;
-    height: 100px;
+    width: 31%;
+    display: flex;
+    align-items: center;
 }
 .player{
-    background-color: blue;
-    height: 100px;
-    width:60%
+    
+    width:38%
     
 }
 .volume-control{
-    width: 20%;
-    height: 100px;
-    background-color: bisque;
+    width: 31%;
 }
 .footer{
     display: flex;
     flex-direction: row;
 }
 .little-image{
-    width: 40px;
+    width: 55px;
 }
+.song-name{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+.inline{
+    display: inline;
+}
+.symbols{
+    display: none;
+}
+.col-15{
+    width: 15%;
+    height: 24px;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    
+}
+.col-75{
+    width: 75%;
+    height: 24px;
+    background-color: blue;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.low-bar{
+    display: flex;
+    
+}
+
+

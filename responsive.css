@@ -53,6 +53,10 @@
 .col-21 img{
     border-radius: 150px;
 }
+
+.symbols{
+    display: block;
+}
 }
 
 
