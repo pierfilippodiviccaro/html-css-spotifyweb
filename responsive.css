@@ -27,9 +27,7 @@
 }
 .logo1{
     display: block;
-    height: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
+    padding: 20px;
 }
 .side-bar{
     display: block;
@@ -56,6 +54,13 @@
 
 .symbols{
     display: block;
+}
+.playlist-creation li{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.nav li{
+    font-size: 30px;
 }
 }
 

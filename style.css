@@ -182,6 +182,7 @@ body{
 }
 .side-bar {
     font-size: small;
+    overflow-y: auto;
 }
 
 
@@ -294,13 +295,14 @@ background-color: gray;
 .upgrade:hover{
     font-size: large;
     cursor: pointer;
-    width: 300px;
+    width: 200px;
     height: 70px;
 }
 .playlist-creation li:hover{
     cursor: pointer;
     font-weight: 600;
     font-size: large;
+
 }
 .add:hover{
     cursor: pointer;
@@ -351,4 +353,45 @@ background-color: gray;
     font-weight: 700;
     
 }
-
+.background{
+    background-color: gray;
+    border-radius: 10px;
+}
+.background img{
+    width: 35px;
+    
+}
+.download-button img{
+    height: 26px;
+}
+.download-button{
+    display: flex;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(155, 147, 147);
+    width: 150px;
+    color: gray;
+    padding-bottom: 5px;
+    
+}
+.menu li:hover{
+    border-left: 3px solid green;
+    
+}
+.profile-1 img{
+    width: 25px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.profile-1{
+    display: flex;
+    font-size: 18px;
+    gap: 5px;
+    margin-top: 8px;
+    color: gray;
+}
+.profile-1:hover{
+    cursor: pointer;
+}
+.download-button:hover{
+    cursor: pointer;
+}
